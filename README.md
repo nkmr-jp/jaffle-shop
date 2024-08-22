@@ -6,7 +6,7 @@ gcloud auth login
 gcloud auth application-default login
 ```
 
-各種インストール
+## 各種インストール
 ```sh
 python -m venv .venv
 source .venv/bin/activate.fish
@@ -14,17 +14,18 @@ pip install -r requirements.txt
 pip install dbt-bigquery
 ```
 
-テンプレートからプロファイルをコピー
+## テンプレートからプロファイルをコピー
 ```sh
 cp profiles_template.yml profiles.yml
 ```
 
-profiles.yml を編集。`<your-project-id>`に自分のGoogleCloudのプロジェクトIDを書く。
+## profiles.yml を編集
+`<your-project-id>`に自分のGoogleCloudのプロジェクトIDを書く。
 ```yml
 project: <your-project-id>
 ```
 
-dbtのコマンド実行
+## dbtのコマンド実行
 ```sh
 dbt deps
 dbt seed
@@ -36,19 +37,24 @@ dbt docs serve
 <img width="2008" alt="image" src="https://github.com/user-attachments/assets/decc06c9-39fa-45b8-8e8b-d530eb01b766">
 濃いピンクがMetric、薄いピンクがSemantic Model
 
-MetricFlowのコマンド実行
-参考: 
-- https://github.com/dbt-labs/jaffle-sl-template
-- https://docs.getdbt.com/docs/build/metricflow-commands
+
+## MetricFlowのコマンド実行
 
 ```sh
 pip install "dbt-metricflow[bigquery]"
 mf query --metrics large_orders
+
 # ✔ Success 🦄 - query completed after 2.09 seconds
 #   large_orders
 # --------------
 #           7219
 ```
+
+参考: 
+- https://github.com/dbt-labs/jaffle-sl-template
+- https://docs.getdbt.com/docs/build/metricflow-commands
+
+
 
 # 🥪 The Jaffle Shop 🦘
 
