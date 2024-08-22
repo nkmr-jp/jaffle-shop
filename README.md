@@ -34,8 +34,21 @@ dbt docs serve
 ```
 
 <img width="2008" alt="image" src="https://github.com/user-attachments/assets/decc06c9-39fa-45b8-8e8b-d530eb01b766">
+濃いピンクがMetric、薄いピンクがSemantic Model
 
+MetricFlowのコマンド実行
+参考: 
+- https://github.com/dbt-labs/jaffle-sl-template
+- https://docs.getdbt.com/docs/build/metricflow-commands
 
+```sh
+pip install "dbt-metricflow[bigquery]"
+mf query --metrics large_orders
+# ✔ Success 🦄 - query completed after 2.09 seconds
+#   large_orders
+# --------------
+#           7219
+```
 
 # 🥪 The Jaffle Shop 🦘
 
