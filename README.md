@@ -33,6 +33,10 @@ dbt docs generate
 dbt docs serve
 ```
 
+<img width="2008" alt="image" src="https://github.com/user-attachments/assets/decc06c9-39fa-45b8-8e8b-d530eb01b766">
+
+
+
 # 🥪 The Jaffle Shop 🦘
 
 This is a sandbox project for exploring the basic functionality and latest features of dbt. It's based on a fictional restaurant called the Jaffle Shop that serves [jaffles](https://en.wikipedia.org/wiki/Pie_iron).
