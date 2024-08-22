@@ -65,7 +65,7 @@ dbterd run
 ```sh
 npm install -g dbdocs
 dbdocs login
-dbdocs build "./target/output.dbml"
+dbdocs build "./target/output.dbml" --project "jaffle-shop"
 ```
 
 https://dbdocs.io/nkmr-jp/jaffle-shop?view=relationships
