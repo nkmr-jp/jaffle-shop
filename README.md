@@ -69,10 +69,19 @@ dbdocs build "./target/output.dbml"
 ```
 
 https://dbdocs.io/nkmr-jp/jaffle-shop?view=relationships
-<img width="1595" alt="image" src="https://github.com/user-attachments/assets/7a2a5592-1bb2-4091-b4c7-b0aa29f84ca4">
+<img width="2056" alt="image" src="https://github.com/user-attachments/assets/dbdd17a7-ccad-479a-a9d9-c45b58f07697">
+
 
 参考：
 - https://dbterd.datnguyen.de/1.17/
+
+
+# ER図更新
+```sh
+dbt docs generate
+dbterd run
+dbdocs build "./target/output.dbml" --project "jaffle-shop"
+```
 
 
 # 🥪 The Jaffle Shop 🦘
