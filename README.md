@@ -69,6 +69,8 @@ dbdocs build "./target/output.dbml"
 ```
 
 https://dbdocs.io/nkmr-jp/jaffle-shop?view=relationships
+<img width="1595" alt="image" src="https://github.com/user-attachments/assets/7a2a5592-1bb2-4091-b4c7-b0aa29f84ca4">
+
 
 
 # 🥪 The Jaffle Shop 🦘
