@@ -54,6 +54,21 @@ mf query --metrics large_orders
 - https://github.com/dbt-labs/jaffle-sl-template
 - https://docs.getdbt.com/docs/build/metricflow-commands
 
+# ER図作成
+
+```sh
+pip install dbterd --upgrade
+pip install dbt-artifacts-parser --upgrade
+dbterd run
+```
+
+```sh
+npm install -g dbdocs
+dbdocs login
+dbdocs build "./target/output.dbml"
+```
+
+https://dbdocs.io/nkmr-jp/jaffle-shop?view=relationships
 
 
 # 🥪 The Jaffle Shop 🦘
