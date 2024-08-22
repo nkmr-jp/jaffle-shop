@@ -1,6 +1,6 @@
 # dbt-coreとBigQueryで実行する手順
 
-gcloud auth でのログイン。 (CloudSDKのインストールがまだの場合は [こちら](~https://cloud.google.com/sdk/docs/install-sdk?hl=ja~) を参考に設定。)
+gcloud auth でのログイン。 (CloudSDKのインストールがまだの場合は [こちら](https://cloud.google.com/sdk/docs/install-sdk?hl=ja) を参考に設定。)
 ```sh
 gcloud auth login
 gcloud auth application-default login
